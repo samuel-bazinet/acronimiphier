@@ -67,7 +67,6 @@ pub fn process(input: &str, cutoff: usize) -> String {
         }
         pairs = HashMap::new();
     }
-    // take all the word combos and generate the first stage of acronyms
-    // potentially run again until there are no more combos
+    
     out
 }
