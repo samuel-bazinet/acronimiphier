@@ -27,8 +27,7 @@ impl Acronym {
     }
 
     pub fn get_components_string(&self) -> String {
-        self.components
-            .join(" ")
+        self.components.join(" ")
     }
 
     pub fn get_components(&self) -> &Vec<String> {
